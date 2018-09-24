@@ -1,0 +1,16 @@
+{
+  "name": "violetalibertad.github.io",
+  "version": "1.0.0",
+  "description": "Personal portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "portfolio",
+    "front-end",
+    "developer"
+  ],
+  "author": "Violeta Libertad",
+  "license": "ISC"
+}
