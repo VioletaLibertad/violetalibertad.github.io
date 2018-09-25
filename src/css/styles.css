@@ -1,0 +1,50 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #10100f;
+  font-family: 'Arimo', sans-serif;
+  font-size: 25px;
+}
+
+.sectionHeader {
+  font-family: 'Dosis', sans-serif;
+}
+
+/* Funcionalidad Aparecer y Desaparecer */
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+/* Navbar Styles */
+.navbar-link {
+  color: #fbf8e6;
+}
+
+.nav-link:hover {
+  text-shadow: 0 0 5px #48a5c0, 0 0 10px #48a5c0, 0 0 20px #48a5c0, 0 0 30px #48a5c0;
+}
+
+/* About me */
+.aboutMeSection {
+  color: #fbf8e6;
+  margin-top: 10%;
+}
+
+.slide-in-bottom {
+	animation: slide-in-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes slide-in-bottom {
+  0% {
+    transform: translateY(1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
