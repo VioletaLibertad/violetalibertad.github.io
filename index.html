@@ -16,23 +16,31 @@
   <!-- My CSS -->
   <link rel="stylesheet" href="./src/css/styles.css">
   <link rel="stylesheet" href="./src/css/cube.css">
+  <link rel="stylesheet" href="./src/css/hamburger.css">
   <title>Violeta Ledezma | Front-End Developer</title>
 </head>
 
 <body>
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
-    <a class="navbar-brand" href="#"><i class="far fa-smile"></i></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+    <a class="navbar-brand" href="#"><img src="./src/img/vle.png" id="navbarLogo" alt="Violeta Ledezma Logo"></a>
+    <button class="hamburger hamburger--stand" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
       aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <span class="hamburger-box"><span class="hamburger-inner"></span></span>
     </button>
+    <!--
+    <button class="hamburger hamburger--stand" type="button">
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button>  -->
+    
     <div class="collapse navbar-collapse mr-1" id="navbarNavAltMarkup">
       <div class="navbar-nav ml-auto text-right">
         <a class="nav-item nav-link active m-2" href="#about">About</a>
-        <a class="nav-item nav-link active m-2" href="#">Projects</a>
+        <a class="nav-item nav-link active m-2" href="#projects">Projects</a>
         <a class="nav-item nav-link active m-2" href="#skills">Skills</a>
-        <a class="nav-item nav-link active m-2" href="#">Contact</a>
+        <a class="nav-item nav-link active m-2" href="#contact">Contact</a>
       </div>
     </div>
   </nav>
@@ -62,7 +70,7 @@
   </div>
 
   <!-- About -->
-  <section class="aboutMeSection slide-in-bottom">
+  <section class="mainSections slide-in-bottom">
     <a id="about">
       <div class="container">
         <h1 class="sectionHeader">About Me</h1>
@@ -76,13 +84,13 @@
   </section>
 
   <!-- Projects -->
-  <section class="aboutMeSection slide-in-bottom">
+  <section class="mainSections slide-in-bottom">
     <a id="projects">
       <div class="container">
         <h1 class="sectionHeader">Projects</h1>
         <div class="card-deck">
           <div class="card">
-            <img class="card-img-top" src=".../100px200/" alt="Card image cap">
+            <img class="card-img-top" src="./src/img/pinterest.png" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
@@ -113,7 +121,7 @@
   </section>
 
   <!-- Skills -->
-  <section class="aboutMeSection slide-in-bottom">
+  <section class="mainSections slide-in-bottom">
     <a id="skills">
       <div class="container">
         <h1 class="sectionHeader">Skills</h1>
@@ -125,6 +133,16 @@
       </div>
     </a>
   </section>
+
+  <!-- Contact -->
+  <section class="mainSections slide-in-bottom">
+      <a id="contact">
+        <div class="container">
+          <h1 class="sectionHeader">Contact</h1>
+          <p>Insert icons and links here</p>
+        </div>
+      </a>
+    </section>
 
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

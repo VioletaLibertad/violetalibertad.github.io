@@ -6,10 +6,6 @@ body {
   font-size: 25px;
 }
 
-.sectionHeader {
-  font-family: 'Dosis', sans-serif;
-}
-
 /* Funcionalidad Aparecer y Desaparecer */
 .hide {
   display: none;
@@ -20,16 +16,25 @@ body {
 }
 
 /* Navbar Styles */
+#navbarLogo {
+  height: 100px;
+  width: auto;
+}
+
 .navbar-link {
   color: #fbf8e6;
 }
 
 .nav-link:hover {
-  text-shadow: 0 0 5px #48a5c0, 0 0 10px #48a5c0, 0 0 20px #48a5c0, 0 0 30px #48a5c0;
+  text-shadow: 0 0 5px #48a5c0, 0 0 10px #48a5c0, 0 0 20px #48a5c0, 0 0 30px #48a5c0, 0 0 40px #48a5c0;
 }
 
-/* About me */
-.aboutMeSection {
+/* Sections Styles */
+.sectionHeader {
+  font-family: 'Dosis', sans-serif;
+}
+
+.mainSections {
   color: #fbf8e6;
   margin-top: 10%;
 }
@@ -47,4 +52,9 @@ body {
     transform: translateY(0);
     opacity: 1;
   }
+}
+
+/* Card Styles */
+.card {
+  background-color: #48a5c0;
 }
