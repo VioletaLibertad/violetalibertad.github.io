@@ -1,6 +1,6 @@
 body {
   height: 100vh;
-  width: 100vw;
+  width: auto;
   background-color: #10100f;
   font-family: 'Arimo', sans-serif;
   font-size: 25px;
@@ -15,28 +15,15 @@ body {
   display: block;
 }
 
-/* Navbar Styles */
-#navbarLogo {
-  height: 100px;
-  width: auto;
-}
-
-.navbar-link {
-  color: #fbf8e6;
-}
-
-.nav-link:hover {
-  text-shadow: 0 0 5px #48a5c0, 0 0 10px #48a5c0, 0 0 20px #48a5c0, 0 0 30px #48a5c0, 0 0 40px #48a5c0;
-}
-
 /* Sections Styles */
 .sectionHeader {
   font-family: 'Dosis', sans-serif;
 }
 
 .mainSections {
+  height: 100vh;
+  width: auto;
   color: #fbf8e6;
-  margin-top: 10%;
 }
 
 .slide-in-bottom {
@@ -54,7 +41,110 @@ body {
   }
 }
 
-/* Card Styles */
-.card {
+/* About Section */
+.about {
+background-color: #f3572b;
+}
+
+/* Projects Section */
+.projects {
   background-color: #48a5c0;
+}
+
+/* Skills Section */
+.skills {
+  background-color: #c1ce6c;
+}
+
+/* Contact Section */
+.contact {
+  background-color: #d4d4d3;
+}
+
+
+/* Project Images Styles */
+.snip1550 {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 10px 8px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  font-size: 16px;
+  line-height: 1.2em;
+}
+.snip1550 *,
+.snip1550 *:before,
+.snip1550 *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1550:before {
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  content: '';
+  background-color: #ffffff;
+  opacity: 0;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1550 img {
+  max-width: 100%;
+  vertical-align: top;
+}
+.snip1550 .icons {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.snip1550 a {
+  margin: 2px;
+  opacity: 0;
+  -webkit-transform: scale(0.5);
+  transform: scale(0.5);
+}
+.snip1550 a i {
+  display: block;
+  font-size: 23.52941176px;
+  line-height: 40px;
+  width: 40px;
+  background-color: #ffffff;
+  text-align: center;
+  color: #000000;
+}
+.snip1550 a i:hover {
+  background-color: #000000;
+  color: #ffffff;
+  cursor: pointer;
+}
+.snip1550:hover:before,
+.snip1550.hover:before {
+  opacity: 0.5;
+}
+.snip1550:hover a,
+.snip1550.hover a {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.snip1550:hover a:nth-child(2),
+.snip1550.hover a:nth-child(2) {
+  -webkit-transition-delay: 0.15s;
+  transition-delay: 0.15s;
+}
+.snip1550:hover a:nth-child(3),
+.snip1550.hover a:nth-child(3) {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
 }
