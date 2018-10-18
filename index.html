@@ -10,9 +10,13 @@
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
     crossorigin="anonymous">
+  <!-- Devicons -->
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
     crossorigin="anonymous">
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="./node_modules/animate.css/animate.min.css">
   <!-- My CSS -->
   <link rel="stylesheet" href="./src/css/styles.css">
   <link rel="stylesheet" href="./src/css/navbar.css">
@@ -41,16 +45,14 @@
       <span class="bar-middle"></span>
       <span class="bar-bottom"></span>
     </div>
-    <div class="container">
-      <div class="row">
+    <div class="container mt-5">
+      <div class="row my-5">
         <div class="col-sm"></div>
         <div class="col-sm-8">
           <!-- Cube structure -->
           <div class="wrap">
-            <div class="cube">
-              <div class="front">
-                <p>Violeta Ledezma</p>
-              </div>
+            <div class="cube my-5">
+              <div class="front"></div>
               <div class="back">
                 <p>Curiosity</p>
               </div>
@@ -71,16 +73,24 @@
         </div>
         <div class="col-sm"></div>
       </div>
+      <div class="row my-5">
+        <div class="col-sm"></div>
+        <div class="col-sm-8">
+          <h1>Violeta Ledezma Espinoza</h1>
+          <h4>Front-End Developer</h4>
+        </div>
+        <div class="col-sm"></div>
+      </div>
     </div>
   </section>
 
   <!-- About -->
-  <section class="mainSections about slide-in-bottom">
+  <section class="mainSections about">
     <a id="about">
-      <div class="container">
+      <div class="container animated fadeInLeft">
         <div class="row">
           <div class="col-sm">
-            <h1 class="sectionHeader">About Me</h1>
+            <h1>About Me</h1>
           </div>
           <div class="col-sm"></div>
           <div class="col-sm"></div>
@@ -104,42 +114,46 @@
   </section>
 
   <!-- Work -->
-  <section class="mainSections projects slide-in-bottom">
-    <a id="projects">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm">
-            <h1 class="sectionHeader">Works</h1>
-          </div>
-          <div class="col-sm"></div>
-          <div class="col-sm"></div>
+  <section class="mainSections projects">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <h1 class="sectionHeader">Works</h1>
         </div>
-        <div class="row mx-auto">
-          <div class="col-sm">
-            <figure class="snip1550"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample66.jpg" alt="sample66" />
-              <div class="icons"><a><i class="ion-android-pin"></i></a><a><i class="ion-android-chat"></i></a><a><i
-                    class="ion-android-share-alt"></i></a></div>
-            </figure>
-          </div>
-          <div class="col-sm">
-            <figure class="snip1550"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample66.jpg" alt="sample66" />
-              <div class="icons"><a><i class="ion-android-pin"></i></a><a><i class="ion-android-chat"></i></a><a><i
-                    class="ion-android-share-alt"></i></a></div>
-            </figure>
-          </div>
-          <div class="col-sm">
-            <figure class="snip1550"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample92.jpg" alt="sample92" />
-              <div class="icons"><a><i class="ion-android-pin"></i></a><a><i class="ion-android-chat"></i></a><a><i
-                    class="ion-android-share-alt"></i></a></div>
-            </figure>
-          </div>
+        <div class="col-sm"></div>
+        <div class="col-sm"></div>
+      </div>
+      <div class="row mx-auto">
+        <div class="col-sm">
+          <figure class="snip1550"><img class="img-fluid img-thumbnail" src="./src/img/sin-restricciones.png" alt="sin-restricciones project" />
+            <div class="icons">
+              <a><i class="fas fa-search"></i></a>
+              <a href="https://sin-restricciones-react.firebaseapp.com/"><i class="fas fa-link"></i></a>
+            </div>
+          </figure>
+        </div>
+        <div class="col-sm">
+          <figure class="snip1550"><img class="img-fluid img-thumbnail" src="./src/img/if-visitor.png" alt="if-visitor project" />
+            <div class="icons">
+              <a><i class="fas fa-search"></i></a>
+              <a href="https://if-visitor.firebaseapp.com/"><i class="fas fa-link"></i></a>
+            </div>
+          </figure>
+        </div>
+        <div class="col-sm">
+          <figure class="snip1550"><img class="img-fluid img-thumbnail" src="./src/img/pinterest.png" alt="pinterest project" />
+            <div class="icons">
+              <a><i class="fas fa-search"></i></a>
+              <a href="https://violetalibertad.github.io/pinterest/"><i class="fas fa-link"></i></a>
+            </div>
+          </figure>
         </div>
       </div>
-    </a>
+    </div>
   </section>
 
   <!-- Skills -->
-  <section class="mainSections skills slide-in-bottom">
+  <section class="mainSections skills">
     <a id="skills">
       <div class="container">
         <div class="row">
@@ -152,12 +166,17 @@
         <div class="row">
           <div class="col-sm"></div>
           <div class="col-sm-8">
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-              ex ea
-              commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-              anim id est laborum."</p>
+            <div class="skillsIcons">
+              <i class="devicon-javascript-plain"></i>
+              <i class="devicon-html5-plain-wordmark"></i>
+              <i class="devicon-css3-plain-wordmark"></i>
+              <i class="devicon-react-original"></i>
+              <br>
+              <i class="devicon-git-plain-wordmark"></i>
+              <i class="devicon-github-plain-wordmark"></i>
+              <i class="devicon-bootstrap-plain"></i>
+              <i class="devicon-visualstudio-plain"></i>
+            </div>
           </div>
           <div class="col-sm"></div>
         </div>
@@ -166,7 +185,7 @@
   </section>
 
   <!-- Contact -->
-  <section class="mainSections contact slide-in-bottom">
+  <section class="mainSections contact">
     <a id="contact">
       <div class="container">
         <div class="row">

@@ -20,7 +20,7 @@
   height: 100%;
   width: 100%;
   opacity: 0.9;
-  background-color: #d4d4d3;
+  background-color: #383838;
   border: solid 1px #10100f;
   color: #101010;
   text-align: center;
@@ -29,6 +29,7 @@
 /* Cube transformations: still flat */
 .front {
   transform: translateZ(50px);
+  background-image: url('../img/vle.png');
 }
 .back {
   transform: translateZ(-100px) rotateY(180deg);

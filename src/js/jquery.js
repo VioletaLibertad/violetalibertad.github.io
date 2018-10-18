@@ -35,7 +35,13 @@ $('.open-overlay, ul li a').click(function() {
   }
 });
 
-/* Projects */
+/* Works */
+$('.hover').mouseenter(
+  function() {
+    $(this).addClass('hover');
+  }
+);
+
 $('.hover').mouseleave(
   function() {
     $(this).removeClass('hover');

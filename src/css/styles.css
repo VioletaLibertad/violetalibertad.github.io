@@ -26,24 +26,9 @@ body {
   color: #fbf8e6;
 }
 
-.slide-in-bottom {
-	animation: slide-in-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-
-@keyframes slide-in-bottom {
-  0% {
-    transform: translateY(1000px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
 /* About Section */
 .about {
-background-color: #f3572b;
+  background-color: #f3572b;
 }
 
 /* Projects Section */
@@ -56,11 +41,15 @@ background-color: #f3572b;
   background-color: #c1ce6c;
 }
 
+.skillsIcons > i {
+  font-size: 5em;
+  justify-content: space-around;
+}
+
 /* Contact Section */
 .contact {
   background-color: #d4d4d3;
 }
-
 
 /* Project Images Styles */
 .snip1550 {
