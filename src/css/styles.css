@@ -3,16 +3,6 @@ body {
   width: auto;
   background-color: #10100f;
   font-family: 'Arimo', sans-serif;
-  font-size: 25px;
-}
-
-/* Funcionalidad Aparecer y Desaparecer */
-.hide {
-  display: none;
-}
-
-.show {
-  display: block;
 }
 
 /* Sections Styles */
@@ -21,9 +11,14 @@ body {
 }
 
 .mainSections {
+  color: #fbf8e6;
+}
+
+
+/* Home Section */
+#home {
   height: 100vh;
   width: auto;
-  color: #fbf8e6;
 }
 
 /* About Section */
@@ -31,9 +26,20 @@ body {
   background-color: #f3572b;
 }
 
-/* Projects Section */
+.profilePhoto {
+  height: 15em;
+  width: auto;
+  border-radius: 50%;
+}
+
+/* Works Section */
 .projects {
   background-color: #48a5c0;
+}
+
+.worksImg {
+  height: 15em;
+  width: auto;
 }
 
 /* Skills Section */
@@ -42,13 +48,24 @@ body {
 }
 
 .skillsIcons > i {
+  position: relative;
+  display: inline;
   font-size: 5em;
-  justify-content: space-around;
+  margin: 0.5em;
+  justify-content: space-evenly;
+  color: #3f3f3f
 }
 
 /* Contact Section */
 .contact {
   background-color: #d4d4d3;
+  color: #3f3f3f;
+}
+
+.contactIcons > a > i {
+  font-size: 5em;
+  justify-content: space-around;
+  color: #3f3f3f;
 }
 
 /* Project Images Styles */
