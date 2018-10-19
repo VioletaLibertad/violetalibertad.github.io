@@ -51,14 +51,14 @@ body {
 
 /* Contact Section */
 .contact {
-  background-color: #d4d4d3;
-  color: #3f3f3f;
+  background-color: #10100f;
+  color: #d4d4d3;
 }
 
 .contactIcons > a > i {
   font-size: 5em;
   justify-content: space-around;
-  color: #3f3f3f;
+  color: #d4d4d3;
 }
 
 /* Project Images Styles */
