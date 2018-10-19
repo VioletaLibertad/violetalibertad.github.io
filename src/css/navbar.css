@@ -6,6 +6,7 @@ Navigation
 
 .overlay-navigation {
   position: fixed;
+  overflow: hidden;
   z-index: 99;
   top: 0;
   left: 0;
@@ -53,8 +54,8 @@ nav li a {
   color: #fff;
   text-transform: uppercase;
   font-family: 'Arimo', sans-serif;;
-  font-weight: 600;
-  letter-spacing: 4px;
+  font-weight: 500;
+  letter-spacing: 2px;
   text-decoration: none;
   display: block;
   text-align: center;
@@ -329,7 +330,7 @@ Animation keyframes
     background-color: #fff;
   }
 }
-.home a{
+/* .home a{
   font-family: "Work Sans", sans-serif;
   color: #fff;
   font-weight: 300;
@@ -342,7 +343,7 @@ Animation keyframes
   left:50px;
   padding-bottom: 3px;
   border-bottom: 1px solid #fff;
-}
+} */
 @media (max-width: 640px) {
   nav ul li a {
     font-size: 11px;

@@ -33,22 +33,27 @@
 }
 .back {
   transform: translateZ(-100px) rotateY(180deg);
+  background-image: url('../img/IMG_2839.JPG.jpg')
 }
 .right {
   transform: rotateY(-270deg) translateX(100px);
   transform-origin: top right;
+  background-image: url('../img/IMG_2465.JPG.jpg');
 }
 .left {
   transform: rotateY(270deg) translateX(-100px);
   transform-origin: center left;
+  background-image: url('../img/IMG_0631.jpg');
 }
 .top {
   transform: rotateX(-270deg) translateY(-100px);
   transform-origin: top center;
+  background-image: url('../img/IMG_1745.jpg');
 }
 .bottom {
   transform: rotateX(270deg) translateY(100px);
   transform-origin: bottom center;
+  background-image: url('../img/develop.jpg');
 }
 
 /* Cube 3d animation */
