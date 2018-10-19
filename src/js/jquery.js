@@ -47,3 +47,8 @@ $('.hover').mouseleave(
     $(this).removeClass('hover');
   }
 );
+
+$('.hover').on('touchstart touchend', function(e) {
+  e.preventDefault();
+  $(this).toggleClass('hover');
+});
