@@ -14,14 +14,6 @@ body {
   color: #fbf8e6;
 }
 
-
-/* Home Section 
-#home {
-  height: 100%;
-  width: auto;
-}
-*/
-
 /* About Section */
 .about {
   background-color: #f3572b;
@@ -154,4 +146,31 @@ body {
 .snip1550.hover a:nth-child(3) {
   -webkit-transition-delay: 0.3s;
   transition-delay: 0.3s;
+}
+
+/* Scroll to top*/
+#back2Top {
+  width: 40px;
+  line-height: 40px;
+  overflow: hidden;
+  z-index: 999;
+  display: none;
+  cursor: pointer;
+  -moz-transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+  position: fixed;
+  bottom: 50px;
+  right: 0;
+  background-color: #DDD;
+  color: #555;
+  text-align: center;
+  font-size: 30px;
+  text-decoration: none;
+}
+#back2Top:hover {
+  background-color: #DDF;
+  color: #000;
 }
