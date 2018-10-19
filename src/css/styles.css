@@ -122,7 +122,7 @@ body {
   text-align: center;
   color: #000000;
 }
-.snip1550 a i:hover {
+.snip1550 a i:hover:active {
   background-color: #000000;
   color: #ffffff;
   cursor: pointer;
@@ -131,19 +131,19 @@ body {
 .snip1550.hover:before {
   opacity: 0.5;
 }
-.snip1550:hover a,
-.snip1550.hover a {
+.snip1550:hover:active a,
+.snip1550.hover:active a {
   opacity: 1;
   -webkit-transform: scale(1);
   transform: scale(1);
 }
-.snip1550:hover a:nth-child(2),
-.snip1550.hover a:nth-child(2) {
+.snip1550:hover:active a:nth-child(2),
+.snip1550.hover:active a:nth-child(2) {
   -webkit-transition-delay: 0.15s;
   transition-delay: 0.15s;
 }
-.snip1550:hover a:nth-child(3),
-.snip1550.hover a:nth-child(3) {
+.snip1550:hover:active a:nth-child(3),
+.snip1550.hover:active a:nth-child(3) {
   -webkit-transition-delay: 0.3s;
   transition-delay: 0.3s;
 }
