@@ -8,11 +8,12 @@ module.exports = {
   devServer: {
     contentBase: "./dist"
   },
+  devtool: "inline-source-map",
   module: {
     rules: [{
       test: /\.(js|jsx)$/,
       exclude: /node_modules/,
-      use: ["babel-loader"]
+      use: ["babel-loader", "eslint-loader"]
     }]
   }
 };
